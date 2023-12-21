@@ -1,0 +1,421 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'Bree Serif', serif; 
+}
+:root{
+    --bg-color: #12240f;
+    --second-bg-color:orange;
+    --main-color:#0008ff;
+    --second-main-color:#a19d9d;
+}
+section{
+    min-height: 100vh;
+    padding: 4.4rem 0% 2rem;
+}
+/*--------------------- home-------------------- */
+.home{
+    border: 2px solid transparent;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--second-bg-color);
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0.5rem 0%;
+    background: rgb(226 225 225);
+    background-color: var(--second-bg-color);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 100;
+}
+.header.sticky{
+    border-bottom: 2px solid black;
+}
+.logo{
+    font-size: 2.5rem;
+    color: white;
+    font-weight: 600;
+    cursor: default;
+    text-decoration: none;
+}
+.navbar a{
+    font-size: 1.7rem;
+    color: #12240f;
+    margin-right: 4rem;
+    text-decoration: none;
+}
+.navbar a:hover{
+    border: 1px solid white;
+    color:rgb(255, 255, 255);
+}
+#menu-icon{
+    display: none;
+    font-size: 3.6rem;
+    color: white;
+    
+}
+.home_photo{
+    margin-top: -4.5rem;
+    width: 100%;
+    height: 100vh;
+    /* border: 3px solid rgb(249, 9, 9); */
+}
+.main_photo{
+    width: 100%;
+    height:100%;
+}
+.wel p{
+    display: flex;
+    justify-content: center;
+    font-size: 1.7rem;
+    color:white;
+    margin-top: -30rem;
+    width: 97%;
+    /* border: 2px solid black; */
+} 
+.quotes p{
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    color: rgb(6, 6, 6);
+    width: 97%;
+    /* border: 2px solid black; */
+} 
+/*-----------------------about------------------------ */
+.about{
+    background: var(--second-bg-color);
+}
+.about_box{
+    width: 100;
+    height: 100vh;
+    display: flex;
+    /* border: 2px solid black; */
+}
+.about_box1{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid black; */
+}
+.about_box2_photo{
+    width: 60%;
+    height: 80%;
+    box-shadow: 0rem 0rem 3rem white;
+}
+.about_box2{
+    width: 50%;
+    height: 100%;
+    /* border: 2px solid black; */
+    /* border: 2px solid white; */
+}
+.about_big{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    font-size: 3rem;
+    color: white;
+}
+.about_big p{
+    color: var(--main-color)
+}
+.about_para{
+    margin: 5rem 2rem;
+    color: var(--bg-color);
+}
+
+/* -----------------------project---------------------- */
+.project{
+    background: var(--bg-color);
+}
+.pro_main{
+    width: 100%;
+    height: 100vh;
+    /* border: 2px solid white; */
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-column-gap: 0rem;
+}
+.pro1{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid white; */
+}
+.pro1_img{
+    border-radius: 2rem;
+    width: 90%;
+    box-shadow: 0rem 0rem 1rem white;
+}
+.pro1_img:hover{
+    box-shadow:none;
+}
+.pro2{
+    width: 100%;
+    height: 90%;
+    /* border: 2px solid white; */
+}
+.pro2_proj{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    font-size: 3rem;
+    color: white;
+    /* border: 2px solid white; */
+    
+}
+.pro2_proj p{
+    color: var(--main-color);
+}
+.g{
+    display: flex;
+    font-size: 4rem;
+    color: var(--second-main-color);
+    margin-top: 5rem;
+    justify-content: center;
+    /* border: 2px solid white; */
+}
+/* .g_15{
+    display: block;
+} */
+.dimen{
+    /* border: 2px solid white; */
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-row-gap: 1rem;
+
+}
+.dimen_box{
+    
+    width: 97%;
+    height: 4rem;
+    padding: rem;
+    background-color:var(--second-main-color);
+    /* border: 2px solid white; */
+    font-size: 1.3rem;
+    
+}
+.dimen_box p{
+    display: flex;
+    /* border: 1px solid black; */
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: var(--bg-color);
+}
+.multi{
+    display: flex;
+    font-size: 4rem;
+    color: var(--second-main-color);
+    justify-content: center;
+}
+.pro3{
+    width: 100%;
+    height: 90%;
+    border: 2px solid white;
+}
+#go_to{
+    border-radius:10rem ;
+    width: 50%;
+    height: 2rem;
+    /* background-color:black; */
+
+}
+#go_to p{
+    color: #0601ff;
+}
+#go_to:hover{
+    background-color: #0f1111;
+}
+
+/* -----------------contact-------------------- */
+.contact{
+    background: var(--second-bg-color);
+}
+.contact_main{
+    margin: auto;
+    width: 90%;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    font-size: 3rem;
+    color:white;
+}
+.heading span{
+    color: var(--main-color);
+}
+.contact from{
+    max-width: 70rem;
+    margin: 1rem auto;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.contact form .input-box{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.contact form .input-box input,
+.contact form textarea{
+    width: 100%;
+    padding: 1.5rem;
+    font-size: 1.6rem;
+    /* background: rgb(226 225 225); */
+    background: var(--bg-color);
+    border-radius: .8rem;
+    margin: .7rem 0;
+}
+.contact form .input-box input{
+    width:49%;
+}
+.contact form textarea{
+    
+    height: 15rem;
+    resize: none;
+}
+.contact form .btn{
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+.btn{
+    width: 10rem;
+    height: 2rem;
+    border-radius: 2rem;
+    color: var(--second-bg-color);
+    font-size: 1.2rem;
+    background-color: var(--bg-color);
+}
+
+/* ------------------------panel----------------------- */
+.foot-panel4{
+    background-color: #0f1111;
+    color: white;
+    height: 60px;
+    font-size: 0.7rem;
+    text-align: center;
+}
+.page{
+    padding-top: 15px;
+}
+.page a{
+    font-family: sans-serif;
+}
+.copy-page a{
+    padding-top: 5px;
+    font-family: sans-serif;
+}
+
+/* break Down */
+@media(max-width:1200px){
+    html{
+        font-size: 75%;
+    }
+}
+@media(max-width:550px){
+    #menu-icon{
+        display: block;
+    }
+    .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        padding: 1rem 3%;
+        background-color: var(--second-bg-color);
+        border-top: .1rem solid rgba(0, 0, 0, 0.2);
+        box-shadow: 0.5rem 1rem rgba(0, 0, 0, 0.2);
+        display: none; 
+    }
+    .navbar.active{
+        display:block;
+    }
+    .navbar a{
+        display: block;
+        font-size: 2rem;
+        margin: 3rem;
+        color: var(--bg-color);
+    }
+    .wel p{
+        margin-top: -60rem;
+
+    }
+    .quotes p{
+        width: 80%;
+        margin-top: 2rem;
+        margin-left: 3rem;
+    }
+    .about_box{
+        display: block;
+    }
+    .about_box1{
+        /* display: block; */
+        width: 100%;
+        height: 50vh;
+    }
+    .about_box2{
+        width: 100%;
+    }
+    .pro_main{
+        /* border: 2px solid white; */
+        display: block;
+    }
+    .pro1{
+        height: 50vh;
+    }
+    .pro1_img{
+        display: flex;
+        width: 90%;
+        margin: auto;
+        /* justify-content: center; */
+        /* border: 2px solid black; */
+        
+    }
+    /* .pro2{
+      height: 50vh;
+    } */
+    .pro2_proj{
+        margin-top: 0 ;
+        /* border: 2px solid black; */
+    }
+    .g{
+        margin-top: 1rem;
+        /* border: 2px solid black;  */
+        font-size: 3rem;
+    }
+    .multi{
+        /* margin-top: 1rem; */
+        /* border: 2px solid black;  */
+        font-size: 3rem;
+    }
+    .dimen{
+        display: block;
+        /* width: ; */
+
+       
+    }
+    .dimen_box{
+        width: 100%;
+        margin-top: 0.3rem;
+        /* border: 2px solid beige; */
+    }
+    .contact form .input-box input{
+        width: 100%;
+    }
+}
+
